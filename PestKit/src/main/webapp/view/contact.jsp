@@ -135,7 +135,7 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
 						
-							<form method="post">
+							<form action="contactPagePermission" method="post">
                             <div class="mb-4" >
                                 <input type="text" class="form-control p-3" name="name" placeholder="Your Name">
                             </div>
@@ -148,7 +148,7 @@
                             <div class="mb-4">
                                 <textarea class="w-100 form-control p-3" rows="6" cols="10" name="msg" placeholder="Message"></textarea>
                             </div>
-                            <button class="btn btn-primary border-0 py-3 px-4 rounded-pill" type="submit" formaction="contactpagepermission" >Send Message</button>
+                            <button class="btn btn-primary border-0 py-3 px-4 rounded-pill" type="submit" >Send Message</button>
                         </div>
                     </div>
                 </div>

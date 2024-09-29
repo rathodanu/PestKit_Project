@@ -66,6 +66,10 @@ public class PestKitController {
 	@RequestMapping("contactPagePermission")
 	public String contactPagePermission(Contact contact) throws Exception {
 		contactService.addContact(contact);
+		String mobile = contact.getMobile();
+		if(mobile.length()!=10) {
+			throw new Exception("mobile number should be of 10 digits");
+		}
 		return  "contact";
 	
 	}
